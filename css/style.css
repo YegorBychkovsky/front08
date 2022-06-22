@@ -8,11 +8,8 @@ body {
     margin-left: 33.5%;
 }
 /* 010 */
-.nav__more,
-.nav__registration,
-.nav__authorization,
-.nav__shopping_cart,
-.nav__about_us {
+.nav__link,
+.nav__more {
     display: inline-block;
     position: relative;
     font-size: 1.5rem;
@@ -28,24 +25,11 @@ body {
     border: 1px solid black;
 }
 /* 010 */
-.dropdown__computers,
-.dropdown__cameras,
-.dropdown__televisions,
-.dropdown__gaming_consoles,
-.dropdown__laptops {
+.dropdown__link {
     display: block;
 }
 /* 010 */
-.more__link,
-.dropdown__computers__link,
-.dropdown__cameras__link,
-.dropdown__televisions__link,
-.dropdown__gaming_consoles__link,
-.dropdown__laptops__link,
-.nav__registration__link,
-.nav__authorization__link,
-.nav__shopping_cart__link,
-.nav__about_us__link {
+.link_fl {
     display: block;
     font-size: 1.5rem;
     padding: 10px;
